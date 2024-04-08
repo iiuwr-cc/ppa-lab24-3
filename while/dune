@@ -1,0 +1,12 @@
+(library
+    (name while)
+    (libraries ocamlgraph cmdliner common)
+    (library_flags (-linkall))
+)
+(menhir 
+    (flags (--explain --dump))
+    (modules parser)
+)
+(ocamllex
+    lexer
+)

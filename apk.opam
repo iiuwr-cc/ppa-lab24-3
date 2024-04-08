@@ -1,0 +1,16 @@
+opam-version: "1.2"
+authors: "Paweł Wieczorek <pawel.wieczorek@cs.uni.wroc.pl>"
+name: "apk"
+version: "1.0"
+maintainer: "wieczyk@gmail.com"
+homepage: "https://bitbucket.org/wieczyk/apk"
+bug-reports: "https://bitbucket.org/wieczyk/apk"
+install: [make "install"]
+build: [
+  make
+]
+remove: [[make "uninstall"]]
+depends: [
+  "ocamlfind" {build}
+  "ocamlbuild" {build}
+]

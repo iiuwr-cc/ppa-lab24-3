@@ -1,0 +1,14 @@
+a = &b;
+aa = &bb;
+
+z = &a;
+zz= &aa;
+
+if (1>0) {
+  x = &z;
+} else {
+  x = &zz;
+}
+
+t = *x;
+*t = &u;

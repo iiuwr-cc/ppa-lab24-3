@@ -1,0 +1,14 @@
+xs = null;
+i = 50;
+while (i > 0) {
+    head = malloc;
+    *head = xs;
+    xs = head;
+    i = i - 1;
+}
+p = malloc;
+*p = r;
+q = &p;
+*q = null;
+xs = *p;
+*p = head;

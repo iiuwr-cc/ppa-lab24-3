@@ -1,0 +1,13 @@
+if (1>0) {
+    x = null;
+    y = &z;
+} else {
+    x = &z;
+    y = null;
+}
+
+if (1>0) {
+    *y = &test1;
+} else {
+    *x = &test2;
+}

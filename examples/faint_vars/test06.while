@@ -1,0 +1,5 @@
+while 1 > 0 {
+    x = x + y;
+    x = 1;
+}
+if x > 0 {skip;}

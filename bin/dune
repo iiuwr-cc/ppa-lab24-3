@@ -1,0 +1,4 @@
+(executable
+    (public_name apk)
+    (libraries ocamlgraph cmdliner while while_mem common solutions)
+)

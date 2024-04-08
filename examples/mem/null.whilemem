@@ -1,0 +1,4 @@
+y=1;
+if (1<0) {x = &y;}
+else {x = null;}
+y = *x ;

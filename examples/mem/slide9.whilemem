@@ -1,0 +1,8 @@
+p = malloc;
+x = y;
+x = z;
+*p = z;
+p = q;
+q = &y;
+x = *p;
+p = &z;

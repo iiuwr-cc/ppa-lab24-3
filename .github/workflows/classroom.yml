@@ -1,0 +1,13 @@
+name: GitHub Classroom Workflow
+
+on: [push]
+
+jobs:
+  build:
+    name: Autograding
+    runs-on: ubuntu-latest
+    container: wcharatonikii/ppa-lab:latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: education/autograding@v1
+      
